@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>   
+        <p id="pregunta"></p>                         
+        <p id="res1"></p> <p id="res2"></p> <p id="res3"></p> <p id="res4"></p>
+        <script type="text/javascript" src="PREGUNTAS.js">
+        </script>
+        <script>
+            var mydata= JSON.parse(data);
+            var preg = document.getElementById("pregunta");
+            preg.innerHTML=mydata[0].pregunta;
+            var respuesta1=document.getElementById("res1");
+            var respuesta2=document.getElementById("res2");
+            var respuesta3=document.getElementById("res3");
+            var respuesta4=document.getElementById("res4");
+            respuesta1.innerHTML=mydata[0].respuesta1;
+            respuesta2.innerHTML=mydata[0].respuesta2;
+            respuesta3.innerHTML=mydata[0].respuesta3;
+            respuesta4.innerHTML=mydata[0].respuesta4;
+        </script>
+    </body>
+</html>
