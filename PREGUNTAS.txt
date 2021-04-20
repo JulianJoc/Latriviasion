@@ -1,0 +1,237 @@
+{
+{"pregunta":"¿Cual de estos deportes dura 80 minutos?","respuesta1":"RUGBY*","respuesta2":"FUTBOL","respuesta3":"HANDBALL","respuesta4":"BASQUET"},
+{"pregunta":"¿En qué país se celebraron los primeros Juegos Olímpicos?","respuesta1":"GRECIA*","respuesta2":"ESTOCOLMO","respuesta3":"LONDRES","respuesta4":"ROMA"},
+{"pregunta":"¿Cual de estos deportes tiene equipos de nueve jugadores","respuesta1":"FUTBOL","respuesta2":"BEISBOL*","respuesta3":"CRIQUET","respuesta4":"PADEL"},
+{"pregunta":"¿Cuál es el único país que ha jugado en cada Copa del Mundo de fútbol?","respuesta1":"FRANCIA","respuesta2":"EEUU","respuesta3":"BRASIL*","respuesta4":"ARGENTINA"},
+{"pregunta":"¿Cada cuántos años se celebran los Juegos Olímpicos?","respuesta1":"2","respuesta2":"4*","respuesta3":"6","respuesta4":"1"},
+{"pregunta":"¿A que famosa saga de ficcion pertenece el deporte Quidditch?","respuesta1":"LORD OF THE RING","respuesta2":"CANCION DE HIELO Y FUEGO","respuesta3":"EL CICLO DE TERRAMAR","respuesta4":"HARRY POTTER*"},
+{"pregunta":"¿Cuántos anillos tiene la bandera olímpica?","respuesta1":"3","respuesta2":"5*","respuesta3":"2","respuesta4":"6"},
+{"pregunta":"¿Para qué elemento »Hg« es el símbolo químico?","respuesta1":"POTASIO","respuesta2":"MERCURIO*","respuesta3":"ORO","respuesta4":"HIDROGENO"},
+{"pregunta":"¿Cuál es el planeta más caliente del sistema solar?","respuesta1":"VENUS*","respuesta2":"MERCURIO","respuesta3":"JUPITER","respuesta4":"MARTE"},
+{"pregunta":"¿Qué desastre natural se mide con una escala de Richter?","respuesta1":"TORNADOS","respuesta2":"TSUNAMIS","respuesta3":"TERREMOTOS*","respuesta4":"ERUPCIONES"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+{"pregunta":"PREGUNTA","respuesta1":"A*","respuesta2":"B","respuesta3":"C","respuesta4":"D"},
+}
+
+
+
+
+
+    ¿De qué sustancia están hechas las uñas? Respuesta: Queratina
+    
+
+Películas y TV
+
+Preguntas sobre Películas y TV:
+
+    ¿Qué popular serie de televisión contó con la casa de Targaryen y Stark? Respuesta: Juego de tronos
+    ¿En cuántas películas interpretó Sean Connery a James Bond? Respuesta: 7
+    ¿Qué personaje de dibujos animados vive en una piña bajo el mar? Respuesta: Bob Esponja
+    ¿En qué película de Disney Pixar del 2009 es Carl Fredricksen el personaje principal? Respuesta: Up
+    ¿Cómo se llamaba el actor que interpretó a Jack Dawson en Titanic? Respuesta: Leonardo DiCaprio
+    ¿En qué año se emitió el primer episodio de South Park? Respuesta: 1997
+    ¿A qué película pertenecen los personajes Simba, Scar y Mufasa? Respuesta: El Rey León
+    ¿Quién dirigió la trilogía del Señor de los Anillos? Respuesta: Peter Jackson
+    ¿Cuál fue la primera película de animación nominada a la Mejor Película en los Premios de la Academia? Respuesta: La bella y la bestia
+    ¿Cuántos Oscars consiguió la película del Titánica? Respuesta: Once
+    En los Picapiedra, ¿qué decoración usa el bebé Pebbles en su pelo? Respuesta: Un hueso
+    ¿Quién es el creador de los Simpson? Respuesta: Matt Groening
+    ¿Cuál de los Teletubbies era verde? Respuesta: Dipsy
+    ¿Qué serie icónica presentaba a los personajes principales, Samantha, Carrie, Cynthia y Charlotte? Respuesta: Sexo en New York
+    ¿En qué año se emitió el primer episodio de Los Simpson? Respuesta: 1989
+
+Historia
+
+Preguntas sobre Historia:
+
+    En 1893, ¿qué país se convirtió en el primero en dar a las mujeres el derecho al voto? Respuesta: Nueva Zelanda
+    ¿Qué famoso actor se convirtió en gobernador de California en 2003? Respuesta: Arnold Schwarzenegger
+    ¿En qué año descubrió Cristóbal Colón el »Nuevo Mundo«? Respuesta: 1492
+    ¿En qué ciudad fue lanzada la segunda bomba atómica en tiempos de guerra? Respuesta: Nagasaki
+    ¿En qué año terminó la Segunda Guerra Mundial? Respuesta: 1945
+    ¿Quién fue el primer hombre en poner un pie en la luna? Respuesta: Neil Armstrong
+    ¿Quién fue el primer presidente de los Estados Unidos? Respuesta: George Washington
+    ¿Con qué color fue originalmente asociado el día de San Patricio? Respuesta: Azul
+    ¿Dónde se abrió el primer Hard Rock Café? Respuesta: Londres (Piccadilly)
+    ¿En qué año murió la princesa Diana? Respuesta: 1997
+    ¿Cuáles fueron las últimas palabras del escritor socialista: »Las últimas palabras son para estúpidos que todavía no han hablado lo suficiente«? Respuesta: Karl Marx
+    ¿En qué año fue lanzado el primer modelo del iPhone? Respuesta: 2007
+    ¿Quién sucedió a Enrique II como rey de Inglaterra? Respuesta: Ricardo I/Ricardo Corazón de León
+    ¿De qué país obtuvo Argelia la independencia en 1962? Respuesta: Francia
+    ¿En qué ciudad fue construido el Titanic? Respuesta: Belfast
+
+Religión y tradición
+
+Preguntas sobre religión y tradición:
+
+    ¿Qué país inventó el té? Respuesta: China
+    ¿Qué religión es la religión más practicada del mundo? Respuesta: Cristianismo
+    ¿Qué significa la palabra »Sintoísta« ? Respuesta: El camino de los dioses
+    Los seguidores del monstruo espagueti volador se refieren a sí mismos ¿cómo qué? Respuesta: Pastafarianos
+    ¿De qué es diosa hawaiana Pele? Respuesta: Volcanes
+    La mayoría de los Papas han sido italianos. ¿Qué país tiene el segundo número más alto de Papas? Respuesta: Francia
+    ¿Cuál es el libro más sagrado del judaísmo? Respuesta: La Torá
+    ¿Un ‘mandir’ es un templo de qué religión? Respuesta: Hinduismo
+    La Meca, la ciudad santa del Islam, ¿de qué país se encuentra dentro? Respuesta: Arabia Saudí
+    ¿Cuál es el plato nacional de España? Respuesta: Paella
+    Nombra todos los »Siete Pecados Capitales«. Respuesta: Orgullo, codicia, lujuria, envidia, gula, ira y pereza.
+    ¿Quién era el dios griego de la guerra? Respuesta: Ares
+    ¿Cuál es el nombre del término budista usado para describir el estado de estar libre de todo sufrimiento, el objetivo de todos los budistas? Respuesta: Nirvana
+    ¿Qué nación europea se dice que inventó los perritos calientes? Respuesta: Alemania
+    ¿»La Watchtower« es una revista para miembros de qué grupo religioso? Respuesta: Testigos de Jehová
+
+Geografía
+
+Preguntas sobre geografía:
+
+    ¿Qué continente es el más grande? Respuesta: Asia
+    ¿Qué desierto es el más grande del mundo? Respuesta: El desierto del Sahara
+    ¿Qué país es el más grande? Respuesta: Rusia
+    ¿Qué país africano fue conocido anteriormente como Abisinia? Respuesta: Etiopía
+    ¿Qué país tiene la bandera nacional más antigua utilizada continuamente? Respuesta: Dinamarca
+    ¿En qué ciudad se encuentra el hogar de Ana Frank? Respuesta: Ámsterdam
+    ¿Qué significa »N« en la OTAN? Respuesta: Norte
+    ¿Cuál es el río más largo de la Tierra? Respuesta: Nilo
+    ¿Qué país experimenta más tornados? Respuesta: Estados Unidos
+    En los Estados Unidos, ¿dónde se pueden encontrar cocodrilos y caimanes juntos en la naturaleza? Respuesta: Sur de Florida
+    ¿Cuál es el símbolo más común en las banderas del mundo? Respuesta: Estrella
+    Dónde hace más frío: ¿en el Polo Norte o en el Polo Sur? Respuesta: El Polo Sur
+    ¿Qué tres océanos rodean Australia? Respuesta: Océano Índico, Océano Antártico y Pacífico (Sur)
+    ¿Cuál es el estado más grande de Estados Unidos en términos de población? Respuesta: California
+    ¿Cuáles son los dos idiomas oficiales del Camerún? Respuesta: francés e inglés
+
+Música
+
+Preguntas sobre Música:
+
+    ¿Cuál era el nombre del grupo del que Justin Timberlake formó parte? Respuesta: N’ SYNC
+    ¿Cuál era el nombre del grupo del que Victoria Beckham formó parte? Respuesta: Spice Girls
+    ¿En qué género musical comenzó Taylor Swift? Respuesta: Country
+    ¿Qué cantante tiene como nombre real Stefani Joanne Angelina Germanotta? Respuesta: Lady Gaga
+    ¿Qué compositor escribió la ópera La flauta mágica? Respuesta: Wolfgang Amadeus Mozart
+    ¿Cuántos hermanos estaban en la formación original de la familia Jackson? Respuesta: Cinco
+    ¿Qué sencillo de los Beatles duró más tiempo en las listas, 19 semanas? Respuesta: Hey Jude
+    ¿Qué músico es el más exitoso de todos los tiempos? Respuesta: Elvis Presley
+    Beyoncé Knowles, Kelly Rowland y Michelle Williams, ¿qué grupo solían formar? Respuesta: Destiny’s Child
+    ¿Quién escribió y grabó originalmente »Make You Feel My Love« que más tarde proporcionó a Adele un éxito en Inglaterra? Respuesta: Bob Dylan
+    ¿Qué cantante estadounidense ha grabado álbumes titulados »One of the Boys«, »Prism« y »Teenage Dream«? Respuesta: Katy Perry
+    En 2017, ¿cuál era el nombre de la artista femenina más escuchada en Spotify? Respuesta: Rihanna
+    ¿Cuál es el verdadero nombre de Fergie? Respuesta: Stacie Ann Ferguson
+    ¿Qué cantante famosa murió de intoxicación por alcohol en 2011 a los 27 años? Respuesta: Amy Winehouse
+    ¿Qué edad tenía la canadiense Avril Lavigne cuando firmó su primer contrato de grabación? Respuesta: 16
+
+Literatura
+
+Preguntas sobre Literatura:
+
+    ¿Qué autor escribió »El silencio de los corderos«? Respuesta: Thomas Harris.
+    ¿Quién mató al Minotauro? Respuesta: Teseo.
+    ¿Cuál es el nombre del personaje principal en la novela de Salinger »El guardián entre el centeno«? Respuesta: Holden Caulfield
+    ¿Quién es la diosa griega del amor? Respuesta: Afrodita
+    ¿En qué década se publicó »El Señor de los Anillos« por primera vez? Respuesta: 1950
+    En las historias de Robin Hood, ¿cuál era el verdadero nombre de Little John? Respuesta: John Little
+    ¿Qué libro de Harry Potter es el más largo de la serie? Respuesta: Harry Potter y la Orden del fénix
+    ¿Qué dos ciudades proporcionan el escenario para la historia de Charles Dickens ‘Historia de dos ciudades? Respuesta: Londres y Paris
+    ¿Qué superhéroe de Marvel Comics es el alter ego de Tony Stark? Respuesta: Iron Man
+    ¿En qué siglo nació William Shakespeare? Respuesta: Siglo XVI
+    ¿Cuál es el primer nombre de Frankenstein en la novela de Mary Shelley? Respuesta: Víctor
+    ¿Quién escribió el libro para la película de terror clásica »El resplandor«? Respuesta: Stephen King
+    ¿Quién es el archienemigo de Batman? Respuesta: El Joker
+    ¿Qué autor escribió las novelas para jóvenes adultos »Bajo la misma estrella« y »Ciudades de papel«? Respuesta: John Green
+    ¿Qué novela abre y cierra con las cartas de Robert Walton? Respuesta: Frankenstein
+
+Celebridades
+
+Preguntas sobre Celebridades:
+
+    ¿Quién fue la primera esposa de Brad Pitt? Respuesta: Jennifer Aniston
+    ¿En qué año nació Johnny Depp? Respuesta: 1963
+    ¿Cuál es el verdadero nombre de Audrey Hepburn? Respuesta: Audrey Kathleen Ruston
+    ¿Qué estrella de Juego de Tronos está casada con uno de los Jonas Brothers? Respuesta: Sophie Turner
+    ¿En qué año murió Michael Jackson? Respuesta: 2009
+    ¿Cuál es el nombre del padre de Miley Cyrus? Respuesta: Billy Ray Cyrus
+    ¿Cuántos hermanos tiene Paris Hilton? Respuesta: Tres
+    ¿Quién es la persona más rica del mundo? Respuesta: Jeff Bezos
+    ¿Quién fue nombrado “El hombre vivo más sexy de la revista People” en 1995? Respuesta: Brad Pitt
+    ¿Qué tiene tatuado en las rodillas Ozzy Osbourne? Respuesta: Caritas sonrientes
+    ¿Qué hizo Mariah Carey en directo que sorprendió a la audiencia de TRL de la MTV en 2001? Respuesta: Striptease
+    ¿A quién besó Britney Spears en el escenario en los MTV Video Music Awards 2003? Respuesta: Madonna
+    ¿Quién se casó con Michael Jackson y Nicolas Cage? Respuesta: Lisa Marie Presley
+    ¿Qué supermodelo escribió una novela llamada Cisne? Respuesta: Naomi Campbell
+    ¿Cuál es el nombre real de Pink? Respuesta: Alecia Beth Moore
+
+Salud
+
+Preguntas sobre Salud:
+
+    ¿Qué órgano tiene cuatro cámaras? Respuesta: El corazón
+    ¿Qué órgano es el más grande en el cuerpo humano? Respuesta: La piel
+    ¿Qué tipo de sangre es más común en los seres humanos? Respuesta: AB negativo
+    ¿Cuál es el órgano interno más grande en un cuerpo humano? Respuesta: hígado
+    ¿Dónde en el cuerpo humano puedes encontrar el sistema límbico? Respuesta: En el cerebro
+    ¿Qué es un “queloide”? Respuesta: Una cicatriz
+    En el cuerpo humano, ¿dónde puedes encontrar olecranon? Respuesta: En los brazos
+    ¿Bajo qué término se conoce mejor el “infarto de miocardio”? Respuesta: ataque cardíaco
+    ¿Qué enfermedad se llamaba anteriormente “consumo”? Respuesta: tuberculosis
+    ¿Qué cabello en el cuerpo humano se vuelve grisáceo? Respuesta: pestañas
+    ¿Qué órgano produce bilirrubina? Respuesta: hígado
+    ¿Qué dispositivo médico inventó Sanctorius en 1612? Respuesta: termómetro
+    ¿De qué material fueron hechos los primeros dientes postizos? Respuesta: hierro
+    ¿Qué enfermedad de la sangre también se conoce como “enfermedad de la realeza”? Respuesta: hemofilia (enfermedad de la sangre)
+    ¿Qué es la acrofobia? Respuesta: miedo a las alturas
+
+Arte y Diseño
+
+Preguntas sobre Arte y Diseño:
+
+    ¿Quién pintó el techo de la Capilla Sixtina? Respuesta: Miguel Ángel
+    ¿Qué artista dijo »Todo lo que puedas imaginar es real«? Respuesta: Pablo Picasso
+    ¿En qué ciudad inglesa está La Lady Lever Art Gallery? Respuesta: Liverpool
+    ¿En qué país nació el pintor surrealista Rene Magritte? Respuesta: Bélgica
+    ¿Qué nacionalidad tenía la pintora Frida Kahlo? Respuesta: México
+    Situado en Nueva York, ¿qué significa MoMA? Respuesta: Museo de Arte Moderno
+    “El Ángel del Norte’ ¿es la obra de qué escultor británico? Respuesta: Antony Gormley
+    ¿De qué escuela de arte alemana fue fundador el arquitecto Walter Gropius? Respuesta: Bauhaus
+    ¿Quién pintó entre muchas otras cosas »La tormenta en el mar de Galilea«, »La ronda nocturna« and »El retorno del hijo pródigo«? Respuesta: Rembrandt
+    ¿Quién diseñó el vestido de novia de Kate Middleton? Respuesta: Sarah Burton
+    ¿Qué artista pintó »Teléfono langosta« en 1936? Respuesta: Salvador Dalí
+    ¿Qué hay de inusual en las cejas de Mona Lisa en la famosa pintura de Leonardo da Vinci? Respuesta: No tiene
+    ¿Qué famoso museo abrió en Londres en abril de 1928? Respuesta: Madame Tussauds
+    ¿Qué pintor holandés se cortó parte de la oreja después de una pelea? Respuesta: Vincent van Gogh.
+    ¿Qué artista holandés de la Edad de Oro pintó a la chica con un pendiente de perla? Respuesta: Johannes Vermeer
+
+
+
+
