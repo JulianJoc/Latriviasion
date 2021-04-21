@@ -4,22 +4,28 @@
 
     </head>
     <body>   
-        <p id="pregunta"></p>                         
-        <p id="res1"></p> <p id="res2"></p> <p id="res3"></p> <p id="res4"></p>
+        <center><h2><p id="pregunta"></p></h2>                         
+        <button id="res1" onclick="correcto()"></button> <br> 
+        <button id="res2"onclick=incorrecto()></button> <br> 
+        <button id="res3"onclick=incorrecto()></button> <br> 
+        <button id="res4"onclick=incorrecto()></button></center>
         <script type="text/javascript" src="PREGUNTAS.js">
         </script>
         <script>
+            var x = 0
             var mydata= JSON.parse(data);
             var preg = document.getElementById("pregunta");
-            preg.innerHTML=mydata[0].pregunta;
+            preg.innerHTML=mydata[x].pregunta;
             var respuesta1=document.getElementById("res1");
             var respuesta2=document.getElementById("res2");
             var respuesta3=document.getElementById("res3");
             var respuesta4=document.getElementById("res4");
-            respuesta1.innerHTML=mydata[0].respuesta1;
-            respuesta2.innerHTML=mydata[0].respuesta2;
-            respuesta3.innerHTML=mydata[0].respuesta3;
-            respuesta4.innerHTML=mydata[0].respuesta4;
-        </script>
+            respuesta1.innerHTML=mydata[x].respuesta1;
+            respuesta2.innerHTML=mydata[x].respuesta2;
+            respuesta3.innerHTML=mydata[x].respuesta3;
+            respuesta4.innerHTML=mydata[x].respuesta4;
+            function correcto(){x+1; href="COMENZAR.html"};
+            function incorrecto(){href="TOP SCORES.html"};
+            </script>
     </body>
 </html>
