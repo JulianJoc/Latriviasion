@@ -15,11 +15,15 @@
             recargar(f)
             function correcto(){
                 f+=1;
-                };
+                recargar(f);};
 
             function recargar(a){
-                var x=a;
                 var mydata= JSON.parse(data);
+                var x;
+                if (a>mydata.length-1){x=mydata.length-1
+                }
+                else {x=a;
+                };
                 var preg = document.getElementById("pregunta");
                 preg.innerHTML=mydata[x].pregunta;
                 var respuesta1=document.getElementById("res1");
@@ -30,10 +34,8 @@
                 respuesta2.innerHTML=mydata[x].respuesta2;
                 respuesta3.innerHTML=mydata[x].respuesta3;
                 respuesta4.innerHTML=mydata[x].respuesta4;
-                for (i = 0; i <= x - 1; varFor++) {promedio += array[varFor];
-                    if (f<10) {recargar(f)}
-                    else {alert("No hay mas preguntas")}
-            }        
+                
+            }      
         </script>
     </body>
 </html>
