@@ -14,13 +14,16 @@
             // window.document.location='TOPSCORES.html?id='+f;
             // {} [] <> 
             var mydata= JSON.parse(data);
+            const totalinicial=mydata.length;
             var pregunta = randomNumber(0, mydata.length);
             recargar();
             function recargar(a){                
                 var correcta = mydata[pregunta].correcta
                 if(a!=null){
                     if(a!=correcta){
-                        alert("perdiste");
+                        var score = totalinicial-mydata.length;
+                        localStorage.setItem('score',score);
+                        window.document.location='TOPSCORES.html'
                     }else{
                         mydata.splice(pregunta,1);
                         var largo = mydata.length;
