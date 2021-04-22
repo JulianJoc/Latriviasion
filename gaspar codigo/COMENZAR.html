@@ -15,8 +15,9 @@
             recargar(f)
             function correcto(){
                 f+=1;
-                recargar(f);
-            };
+                if (f<10) {recargar(f)}
+                else {alert("No hay mas preguntas")}};//aumentar el (f<n) donde n es el numero total de preguntas.
+
             function recargar(a){
                 var x=a;
                 var mydata= JSON.parse(data);

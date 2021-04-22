@@ -1,6 +1,6 @@
 data = `[
 {"pregunta":"Cual de estos deportes dura 80 minutos?","respuesta1":"RUGBY","respuesta2":"FUTBOL","respuesta3":"HANDBALL","respuesta4":"BASQUET","correcta":"1"},
-{"pregunta":"En qué país se celebraron los primeros Juegos Olímpicos?","respuesta1":"GRECIA","respuesta2":"ESTOCOLMO","respuesta3":"LONDRES","respuesta4":"ROMA"ET","correcta":"1"},
+{"pregunta":"En qué país se celebraron los primeros Juegos Olímpicos?","respuesta1":"GRECIA","respuesta2":"ESTOCOLMO","respuesta3":"LONDRES","respuesta4":"ROMA","correcta":"1"},
 {"pregunta":"Cual de estos deportes tiene equipos de nueve jugadores","respuesta1":"FUTBOL","respuesta2":"BEISBOL","respuesta3":"CRIQUET","respuesta4":"PADEL","correcta":"2"},
 {"pregunta":"Cuál es el único país que ha jugado en cada Copa del Mundo de fútbol?","respuesta1":"FRANCIA","respuesta2":"EEUU","respuesta3":"BRASIL","respuesta4":"ARGENTINA","correcta":"3"},
 {"pregunta":"Cada cuántos años se celebran los Juegos Olímpicos?","respuesta1":"2","respuesta2":"4*","respuesta3":"6","respuesta4":"1","correcta":"2"},
