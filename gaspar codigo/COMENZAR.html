@@ -17,8 +17,7 @@
                 f+=1;
                 recargar(f);
             };
-            function recargar(a){
-                var x=a;
+            function recargar(x){
                 var mydata= JSON.parse(data);
                 var preg = document.getElementById("pregunta");
                 preg.innerHTML=mydata[x].pregunta;
