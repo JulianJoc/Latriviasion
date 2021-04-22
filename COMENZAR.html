@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="utf-8"> 
     </head>
     <body>   
-        <h1>PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA PREGUNTA </h1>                          
-        <h3>RESPUESTA 1</h3> <h3>RESPUESTA 2</h3> <h3>RESPUESTA 3</h3> <h3>RESPUESTA 4</h3>
-        <script>            
-        </script>   
+        <center><h2 id="pregunta"></h2>                         
+        <button id="res1" onclick="correcto()"></button> <br> 
+        <button id="res2" onclick="correcto()"></button> <br> 
+        <button id="res3" onclick="correcto()"></button> <br> 
+        <button id="res4" onclick="correcto()"></button></center>
+        <script type="text/javascript" src="PREGUNTAS.js"></script>
+        <script>
+            var f = 0
+            recargar(f)
+            function correcto(){
+                f+=1;
+                recargar(f);};
+
+            function recargar(a){
+                var mydata= JSON.parse(data);
+                var x;
+                if (a>mydata.length-1){x=mydata.length-1
+                }
+                else {x=a;
+                };
+                var preg = document.getElementById("pregunta");
+                preg.innerHTML=mydata[x].pregunta;
+                var respuesta1=document.getElementById("res1");
+                var respuesta2=document.getElementById("res2");
+                var respuesta3=document.getElementById("res3");
+                var respuesta4=document.getElementById("res4");
+                respuesta1.innerHTML=mydata[x].respuesta1;
+                respuesta2.innerHTML=mydata[x].respuesta2;
+                respuesta3.innerHTML=mydata[x].respuesta3;
+                respuesta4.innerHTML=mydata[x].respuesta4;
+                
+            }      
+        </script>
     </body>
 </html>

@@ -15,8 +15,7 @@
             recargar(f)
             function correcto(){
                 f+=1;
-                if (f<10) {recargar(f)}
-                else {alert("No hay mas preguntas")}};//aumentar el (f<n) donde n es el numero total de preguntas.
+                };
 
             function recargar(a){
                 var x=a;
@@ -31,6 +30,9 @@
                 respuesta2.innerHTML=mydata[x].respuesta2;
                 respuesta3.innerHTML=mydata[x].respuesta3;
                 respuesta4.innerHTML=mydata[x].respuesta4;
+                for (i = 0; i <= x - 1; varFor++) {promedio += array[varFor];
+                    if (f<10) {recargar(f)}
+                    else {alert("No hay mas preguntas")}
             }        
         </script>
     </body>
