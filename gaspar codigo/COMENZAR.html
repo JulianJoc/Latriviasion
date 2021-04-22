@@ -5,17 +5,24 @@
     </head>
     <body>   
         <center><h2 id="pregunta"></h2>                         
-        <button id="res1" onclick="correcto()"></button> <br> 
-        <button id="res2" onclick="correcto()"></button> <br> 
-        <button id="res3" onclick="correcto()"></button> <br> 
-        <button id="res4" onclick="correcto()"></button></center>
+        <button id="res1" onclick="siguiente(1)"></button> <br> 
+        <button id="res2" onclick="siguiente(2)"></button> <br> 
+        <button id="res3" onclick="siguiente(3)"></button> <br> 
+        <button id="res4" onclick="siguiente(4)"></button></center>
         <script type="text/javascript" src="PREGUNTAS.js"></script>
         <script>
+            // {} [] <> 
             var f = 0
             recargar(f)
-            function correcto(){
-                f+=1;
-                recargar(f);};
+            function siguiente(a){
+                var mydata= JSON.parse(data);
+                var correcta = mydata[f].correcta
+                if(a==correcta){
+                    f+=1;
+                    recargar(f);}else{
+                        window.document.location='TOPSCORES.html?id='+f;
+                    }
+            };
 
             function recargar(a){
                 var mydata= JSON.parse(data);
@@ -34,8 +41,9 @@
                 respuesta2.innerHTML=mydata[x].respuesta2;
                 respuesta3.innerHTML=mydata[x].respuesta3;
                 respuesta4.innerHTML=mydata[x].respuesta4;
-                
-            }      
+            }    
+            
+            
         </script>
     </body>
 </html>
