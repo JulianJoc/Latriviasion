@@ -5,25 +5,27 @@
     </head>
     <body>   
         <center><h2 id="pregunta"></h2>                         
-        <button id="res1" onclick="correcto()"></button> <br> 
-        <button id="res2" onclick="correcto()"></button> <br> 
-        <button id="res3" onclick="correcto()"></button> <br> 
-        <button id="res4" onclick="correcto()"></button></center>
+        <button id="res1" onclick="recargar(1)"></button> <br> 
+        <button id="res2" onclick="recargar(2)"></button> <br> 
+        <button id="res3" onclick="recargar(3)"></button> <br> 
+        <button id="res4" onclick="recargar(4)"></button></center>
         <script type="text/javascript" src="PREGUNTAS.js"></script>
         <script>
-            var f = 0
-            recargar(f)
-            function correcto(){
-                f+=1;
-                recargar(f);};
-
-            function recargar(a){
-                var mydata= JSON.parse(data);
+            
+            var mydata= JSON.parse(data);
+            
+            recargar();
+            function recargar(a){                
                 var x;
-                if (a>mydata.length-1){x=mydata.length-1
+                var largo = mydata.length;
+                var pregunta = randomNumber(0, largo);
+                x=pregunta;
+                 var correcta = mydata[x].correcta
+                if(a!=null){
+                    if(a!=correcta){
+                        alert("perdiste");
+                    }
                 }
-                else {x=a;
-                };
                 var preg = document.getElementById("pregunta");
                 preg.innerHTML=mydata[x].pregunta;
                 var respuesta1=document.getElementById("res1");
@@ -33,9 +35,15 @@
                 respuesta1.innerHTML=mydata[x].respuesta1;
                 respuesta2.innerHTML=mydata[x].respuesta2;
                 respuesta3.innerHTML=mydata[x].respuesta3;
-                respuesta4.innerHTML=mydata[x].respuesta4;
-                
+                respuesta4.innerHTML=mydata[x].respuesta4; 
+                mydata.splice(pregunta,1);
+            }
+            function randomNumber(min,max){
+            
+            const r = Math.random()*(max-min) + min;
+            return  Math.floor(r)
             }      
+            
         </script>
     </body>
 </html>
