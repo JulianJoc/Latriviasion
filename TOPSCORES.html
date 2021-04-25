@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <p id="scores"></p>
+    </head>
+    <body>            
+        <script>
+            var puntos = localStorage.getItem('score');
+            var aca = document.getElementById('scores');
+            aca.innerHTML=puntos;
+            /*
+            var querystring=window.location.search;
+            var params = new URLSearchParams(querystring);
+            var ls= params.get('id');
+            alert (ls)
+            */
+        </script>   
+    </body>
+</html>

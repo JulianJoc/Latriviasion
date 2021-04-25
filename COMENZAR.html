@@ -11,21 +11,34 @@
         <button id="res4" onclick="recargar(4)"></button></center>
         <script type="text/javascript" src="PREGUNTAS.js"></script>
         <script>
-            
+            // window.document.location='TOPSCORES.html?id='+f;
+            // {} [] <> 
             var mydata= JSON.parse(data);
-            
+            const totalinicial=mydata.length;
+            var pregunta = randomNumber(0, mydata.length);
             recargar();
             function recargar(a){                
-                var x;
-                var largo = mydata.length;
-                var pregunta = randomNumber(0, largo);
-                x=pregunta;
-                 var correcta = mydata[x].correcta
+                var correcta = mydata[pregunta].correcta
                 if(a!=null){
                     if(a!=correcta){
-                        alert("perdiste");
+                        var score = totalinicial-mydata.length;
+                        localStorage.setItem('score',score);
+                        window.document.location='TOPSCORES.html'
                     }
-                }
+                    else{
+                        if(mydata.length != 0){
+                        var score = totalinicial-mydata.length;
+                        mydata.splice(pregunta,1);
+                        var largo = mydata.length;
+                        pregunta = randomNumber(0, largo);                        
+                    }
+                    }   
+                        if (mydata.length == 0){
+                        var score = totalinicial-mydata.length;
+                        localStorage.setItem('score',score);
+                        window.document.location='TOPSCORES.html'}
+                    }
+                var x=pregunta;
                 var preg = document.getElementById("pregunta");
                 preg.innerHTML=mydata[x].pregunta;
                 var respuesta1=document.getElementById("res1");
@@ -36,12 +49,11 @@
                 respuesta2.innerHTML=mydata[x].respuesta2;
                 respuesta3.innerHTML=mydata[x].respuesta3;
                 respuesta4.innerHTML=mydata[x].respuesta4; 
-                mydata.splice(pregunta,1);
             }
             function randomNumber(min,max){
             
             const r = Math.random()*(max-min) + min;
-            return  Math.floor(r)
+                return  Math.floor(r)
             }      
             
         </script>
