@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="utf-8">
     </head>
     <body> 
         <center><header><div>
             <nav>  
                 <h1>LA TRIVIASION</h1>
-                    <input type="text" name="" placeholder="Ingresar usuario" required><br>
-                        <a href="./COMENZAR.html"><input type="button" value="COMENZAR"></a><br>
-                        <a href="./TOP SCORES.html"><input type="button" value="TOP SCORES" name=""></a><br>
-                    
-                
+                    <input type="text" id="username" name="" placeholder="Ingresar usuario"><br>
+                    <input type="button" value="COMENZAR" onclick="comenzar()"><br>
+                    <input type="button" value="TOP SCORES" name=""><br>                
             </nav>
             
         </div></header></center>
     
         <script>
             
+            function comenzar()
+            {   var user = document.getElementById("username");
+                if (user.value==""){alert("Por favor ingrese un nombre de usuario")}
+                else {}
         </script>   
     </body>
 </html>
