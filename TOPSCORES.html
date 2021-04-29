@@ -6,7 +6,7 @@
     </head>
     <body>            
         <script>
-            var puntos = localStorage.getItem('score');
+            var puntos = JSON.parse(localStorage.getItem("scores"));
             var aca = document.getElementById('scores');
             aca.innerHTML=puntos;
             /*

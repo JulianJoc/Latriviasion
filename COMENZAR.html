@@ -25,22 +25,17 @@
                 var correcta = mydata[pregunta].correcta
                 if(a!=null){
                     if(a!=correcta){
-                        var score = totalinicial-mydata.length;
-                        localStorage.setItem('score',score);
-                        window.document.location='TOPSCORES.html'
+                        perdiste();
                     }
                     else{
                         if(mydata.length != 0){
-                        var score = totalinicial-mydata.length;
                         mydata.splice(pregunta,1);
-                        var largo = mydata.length;
-                        pregunta = randomNumber(0, largo);                        
+                        pregunta = randomNumber(0, mydata.length);                        
                     }
                     }   
                         if (mydata.length == 0){
-                        var score = totalinicial-mydata.length;
-                        localStorage.setItem('score',score);
-                        window.document.location='TOPSCORES.html'}
+                        perdiste();
+                    }
                     }
                 var x=pregunta;
                 var preg = document.getElementById("pregunta");
@@ -55,10 +50,28 @@
                 respuesta4.innerHTML=mydata[x].respuesta4; 
             }
             function randomNumber(min,max){
-            
             const r = Math.random()*(max-min) + min;
                 return  Math.floor(r)
-            }              
+            }        
+            function perdiste(){
+                var querystring=window.location.search;
+                var params = new URLSearchParams(querystring);
+                var usuario= params.get('usuario');
+                var score = totalinicial-mydata.length;
+                var asoc = [usuario,score];
+                if(localStorage.getItem("scores")!=null){
+                    var valorAnterior= JSON.parse(localStorage.getItem("scores"));
+                    valorAnterior.push(asoc);
+                    var caca= JSON.stringify(valorAnterior);
+                    localStorage.setItem("scores",caca);
+                
+                }else{
+                    asocc=[asoc];
+                    var caca=JSON.stringify(asocc);
+                    localStorage.setItem("scores",caca);
+                } 
+                window.document.location='TOPSCORES.html' 
+            }     
         </script>
     </body>
 </html>
