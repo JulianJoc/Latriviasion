@@ -2,24 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body> 
-        <center><header><div>
+        <header><div id="main">
             <nav>  
-                <h1>LA TRIVIASION</h1>
-                    <input type="text" id="username" name="" placeholder="Ingresar usuario"><br>
-                    <input type="button" value="COMENZAR" onclick="comenzar()"><br>
-                    <input type="button" value="TOP SCORES" name=""><br>                
+                <h1 id="pregunta">LA TRIVIASION</h1>
+                    <input type="text" id="username" name="" placeholder="Ingresar usuario"><br><br>
+                    <button onclick="comenzar()">COMENZAR</button><br><br>
+                    <a href="TOPSCORES.html" ><button onclick=>TOP SCORES</button></a><br><br>           
             </nav>
             
-        </div></header></center>
+        </div></header>
     
         <script>
-            
-            function comenzar()
+
+            function comenzar()}
             {   var user = document.getElementById("username");
                 if (user.value==""){alert("Por favor ingrese un nombre de usuario")}
-                else {}
+                else {}}
         </script>   
     </body>
 </html>
